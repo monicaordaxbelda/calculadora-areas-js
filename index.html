@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Área de Figuras</title>
+</head>
+<body>
+
+    <h1>Calculadora de Áreas</h1>
+
+    <!-- Select con círculo, rectángulo y triángulo[cite: 22] -->
+    <select id="figura">
+        <option value="circulo">Círculo</option>
+        <option value="rectangulo">Rectángulo</option>
+        <option value="triangulo">Triángulo</option>
+    </select>
+
+    <br><br>
+
+    <!-- Dos inputs para los datos (dato1 y dato2)[cite: 22] -->
+    <input type="number" id="dato1" placeholder="Radio o Base">
+    <input type="number" id="dato2" placeholder="Altura">
+
+    <br><br>
+
+    <button onclick="calcularArea()">Calcular Área</button>
+
+    <!-- Párrafo para mostrar el resultado[cite: 22] -->
+    <p id="area"></p>
+
+    <!-- Enlace al archivo de JavaScript -->
+    <script src="funciones.js"></script>
+</body>
+</html>
